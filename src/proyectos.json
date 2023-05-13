@@ -1,0 +1,69 @@
+{
+    "proyectos": [
+      {
+        "img":"BeeBeerTablet",
+        "alt":"Landing Page",
+        "titulo":"BeeBrick landing page",
+        "descripcion":"Landing Page responsive utilizando Bootstrap y dibujos vectoriales de alta calidad creados en Illustrator.",
+        "link":"https://ladrillodeabejas.neocities.org",
+        "categoria":"programacion"
+      },
+      {
+        "img":"mockupPC2",
+        "alt":"crud en php y mysql",
+        "titulo":"C.R.U.D",
+        "descripcion":"Aplicación de gestión de datos desarrollada en PHP, MySQL y Bootstrap.",
+        "link":"http://crudphpbartoloni.rf.gd/",
+        "categoria":"programacion"
+      },
+      {
+        "img":"portfolio",
+        "alt":"Portfolio de desarrollador web en React",
+        "titulo":"Portfolio en React",
+        "descripcion":"Porfolio personal de desarrollador web desarrollado en React.",
+        "link":"",
+        "categoria":"programacion"
+      },
+      {
+        "img":"prototipo",
+        "alt":"Prototipo de tienda online",
+        "titulo":"Prototipo de ecommerce app",
+        "descripcion":" Diseño de UX/UI intuitivo y proceso de compra fluido en un prototipo de tienda online.",
+        "link":"https://marvelapp.com/prototype/853627h",
+        "categoria":"diseno"
+      },
+      {
+        "img":"identidadDemarca",
+        "alt":"identidad de marca",
+        "titulo":"Identidad de marca",
+        "descripcion":"Creación de imagotipo para la cerveceria ficticia BeeBeer y su identidad de marca",
+        "link":"https://issuu.com/bartoloni/docs/identidaddemarca_compressed",
+        "categoria":"diseno"
+      },
+      {
+        "img":"seo",
+        "alt":"Optimizacion seo",
+        "titulo":"Planificacion SEO",
+        "descripcion":"Planificación completa para el lanzamiento de un sitio web, optimizado para motores de búsqueda.",
+        "link":"https://issuu.com/bartoloni/docs/planificacionseo_compressed",
+        "categoria":"otros"
+      },
+      {
+        "img":"laptopModificado",
+        "alt":"Programacion web",
+        "titulo":"Sitio web basico",
+        "descripcion":"Desarrollo web utilizando HTML, CSS y JQuery para crear un sitio web profesional y atractivo.",
+        "link":"http://proyectolondres.42web.io/",
+        "categoria":"programacion"
+      },
+      {
+        "img":"tienda",
+        "alt":"ecommerce web",
+        "titulo":"Carrito de compras en javascript vanilla",
+        "descripcion":"Ejemplo de tienda online en javascript vanilla con carrito de compras y localstorage",
+        "link":"http://carritobartoloni.rf.gd/",
+        "categoria":"programacion"
+      }
+
+  ]
+  }

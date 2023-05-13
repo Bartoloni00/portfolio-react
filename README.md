@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Introduccion al proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Este proyecto es un portfolio personal de un diseñador y desarrollador web. Aquí, podrás encontrar información sobre mi experiencia, habilidades y algunos de los proyectos en los que he trabajado utilizando diversas tecnologías.
 
-## Available Scripts
+El portfolio está construido utilizando la librería de JavaScript React y también cuenta con algunos archivos en PHP y JSON. El objetivo principal de este proyecto es demostrar mis habilidades y experiencia en el desarrollo web y proporcionar a los reclutadores una visión detallada de mis proyectos anteriores para facilitar el proceso de aplicación al mercado laboral.
 
-In the project directory, you can run:
+En este portfolio, encontrarás secciones dedicadas a mi experiencia laboral, habilidades técnicas y proyectos destacados, los cuales están organizados por tecnología y categoría. También se incluyen enlaces a mis perfiles en redes sociales y mi dirección de correo electrónico para contactarme directamente.
 
-### `npm start`
+Espero que este portfolio sea útil para que los reclutadores conozcan mis habilidades y experiencia, y para que pueda demostrar mi capacidad para diseñar y desarrollar proyectos web de alta calidad."
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Estructura del proyecto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Todo el codigo se encuentra en la carpeta src en la cual te encontraras los archivos que finalmente se renderizaran en la web, junto con procesar.php (el cual se encarga de enviar el formulario al email) y proyectos.json en el cual se encuentran todos los proyectos que se renderizaran en la pagina.
+ademas src posee dos carpetas: assets y componentes
+en la carpeta assets todas las imagenes utilizadas en la web junto a una carpeta llamada mockups las cuales son las imagenes que acompañan a cada proyecto.
+en la carpeta componentes encontraras cada componente utilizado Form, Header, Iconos (archivo que contiene varios componentes svg de iconos creados por mi) marquee (componente el cual utilizamos en otro componente llamado Skills) navBar, projects, SobreMi y Tarjeta(componente el cual utilizamos en otro componente llamado Projects)
 
-### `npm test`
+# Propiedades
+propiedades: el unico componente que utiliza propiedades es Tarjeta : el cual podemos ver que se utiliza en Projects.jsx, cada propiedad (exeptuando key) podemos apreciar que viene del archivo json
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Librerias utilizadas:
+react-bootstrap: la utilizo en Projects.jsx para hacer las  Tabs.
+styled-components: Utilizada en SobreMi.jsx para crear componentes con styled
 
-### `npm run build`
+# Como iniciar el proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+abre la consola y coloca: "npm start" (sin las comillas) y se abrira la app en localhost:3000
