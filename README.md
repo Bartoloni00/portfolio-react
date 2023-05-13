@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introduccion al proyecto
 
 "Este proyecto es un portfolio personal de un diseñador y desarrollador web. Aquí, podrás encontrar información sobre mi experiencia, habilidades y algunos de los proyectos en los que he trabajado utilizando diversas tecnologías.
@@ -25,3 +26,7 @@ styled-components: Utilizada en SobreMi.jsx para crear componentes con styled
 # Como iniciar el proyecto
 
 abre la consola y coloca: "npm start" (sin las comillas) y se abrira la app en localhost:3000
+=======
+# portfolio-react
+Mi portfolio personal creado en React, con un enfoque en la separación de componentes y la utilización de librerías como react-bootstrap y styled-components para mejorar la estructura y presentación de la página. También incorpora SVG diseñados por mí y consume datos desde un archivo JSON.
+>>>>>>> 3068c0a6b893a55e7cf8c9a96cf9ddad1dfad96d
